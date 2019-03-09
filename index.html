@@ -20,6 +20,11 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
+	
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+	
+	
 </head>
 
 <script>
@@ -32,6 +37,7 @@
         document.getElementById("btnVer").style.display = "inline";
         document.getElementById("lbl2").style.display = "inline";
         document.getElementById("txtHint").innerHTML = "";
+		
     }
 
     function myFunction() {
@@ -56,6 +62,7 @@
         }
 
 
+		/*
 
         if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
@@ -107,6 +114,61 @@
         };
         xmlhttp.open("GET","callFrancFinalchklogin.php?q="+mystring+"&r="+mystring2,true);
         xmlhttp.send();
+		
+		*/ 
+		
+		
+		
+		$.ajax({
+			type: 'POST',
+			url: "http://simkhaa.com/callFrancFinalchklogin.php",
+			data: {q: mystring, r: mystring2},
+			datatype: "json",
+			crossDomain: true,
+			cache:false,
+			success: function(responseData) 
+			{
+				// alert(responseData);
+				// var obj = JSON.parse(responseData); 
+				var temp = parseInt(responseData);
+
+				if(temp == 1){
+					
+                    document.getElementById("lbl").style.display = "none";
+                    document.getElementById("lbl2").style.display = "none";
+                    document.getElementById("username").style.display = "none";
+                    document.getElementById("pword").style.display = "none";
+                    document.getElementById("btnVer").style.display = "none";
+					document.getElementById("envelope").style.display = "none";
+                    document.getElementById("lock").style.display = "none";
+					document.getElementById("meldung").style.display = "none";
+					document.getElementById("btnVerAgain").style.display = "none";
+
+                    document.getElementById("btnToDate").style.display = "inline";
+                    document.getElementById("btnToNTrans").style.display = "inline";
+                    document.getElementById("btnNomPrenom").style.display = "inline";
+                    document.getElementById("btnVerAbmelden").style.display = "inline";
+					
+                    document.getElementById("hinweis").innerHTML = "Choisissez svp une option";
+					
+				} else {
+					
+					document.getElementById("meldung").style.display = "inline";
+                    document.getElementById("btnVerAgain").style.display = "inline";
+                    document.getElementById("btnVer").style.display = "none";
+                    document.getElementById("btnVerAbmelden").style.display = "none";
+					
+				}
+
+			},
+			error: function (e) 
+			{     
+			   alert(e.status); //Ajax kÃ¶nnte nicht ausgefÃ¼hrt sein
+			}
+		});
+		
+		
+		
     }
 
     function myFunctionabmeldung() {
