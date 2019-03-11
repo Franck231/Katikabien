@@ -116,7 +116,7 @@ window.onload = function () {
     <div class="container-login100">
         <div class="wrap-login100">
             <div class="login100-form validate-form register">
-                <label id="lbsuch">Waehhlen Sie eine Option aus::</label>
+                <label id="lbsuch">Waehhlen Sie eine Option aus:</label>
                 <br>
                 <label id="lbsuchgbS">Geben Sie bitte den Namen an:</label>
                 <div class="wrap-input100 validate-input" >
@@ -139,7 +139,7 @@ window.onload = function () {
                     <div class="col-4">
                         <div class="container-login100-form-btn">
                             <button id="btnVer" onclick="myFunction()" class="login100-form-btn">
-                                Verifier
+                                Uepruefen
                             </button>
                         </div>
                     </div>
