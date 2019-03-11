@@ -41,7 +41,7 @@ function showlikeReset() {
   
   if(mystring.length == 0 ){
 	  
-	  alert('Das Feld für den Namen ist leer');
+	  alert('Das Feld fuer den Namen ist leer');
 	  return;
   }
   
@@ -50,7 +50,7 @@ function showlikeReset() {
   
   if(mystring2.length == 0 ){
 	  
-	  alert('Das Feld für den Vornamen ist leer');
+	  alert('Das Feld fuer den Vornamen ist leer');
 	  return;
   }
 
@@ -116,7 +116,7 @@ window.onload = function () {
     <div class="container-login100">
         <div class="wrap-login100">
             <div class="login100-form validate-form register">
-                <label id="lbsuch">WÃ¤hlen Sie eine Option aus::</label>
+                <label id="lbsuch">Waehhlen Sie eine Option aus::</label>
                 <br>
                 <label id="lbsuchgbS">Geben Sie bitte den Namen an:</label>
                 <div class="wrap-input100 validate-input" >
@@ -159,11 +159,11 @@ window.onload = function () {
                     </div>
                 </div>
                 <br>
-                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'"> Verifier avec la Date</button >
+                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'">Ueberpruefen mit Datum</button >
 				<br>
-                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'"> Verifier avec la Transactions</button >
+                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'">Ueberpruefen mit TransaktionsID</button >
 				<br>
-                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'"> Verifier avec Nom et Prenom</button >
+                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'">Ueberpruefen mit Namen und Vornamen</button >
 				<br>
                 <button id = "btnabml2" class="login100-form-btn" onclick="location.href='index.php';" >Abmelden</button >
 
