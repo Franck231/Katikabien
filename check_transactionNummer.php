@@ -136,9 +136,9 @@
                     </div>
                 </div>
                 <br>
-                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'">Überprüfen mit Datum</button >
-                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'">Überprüfen mit TransaktionsID</button >
-                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'">Überprüfen mit Namen und Vornamen</button >
+                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'">Ueberpruefen mit Datum</button >
+                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'">Ueberpruefen mit TransaktionsID</button >
+                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'">Ueberpruefen mit Namen und Vornamen</button >
                 <button id = "btnabml2" class="login100-form-btn" onclick="location.href='index.php';" >Abmelden</button >
 
                 <br>
