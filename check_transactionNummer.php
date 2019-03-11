@@ -40,7 +40,7 @@
 
         if(mystring.length == 0 ){
 
-            alert('Das Feld fÃ¼r die transaction_ID ist leer');
+            alert('Das Feld fuer die transaction_ID ist leer');
             return;
         }
 
@@ -104,7 +104,7 @@
     <div class="container-login100">
         <div class="wrap-login100">
             <div class="login100-form validate-form register">
-                <label id="lbsuch">Entrer le numero de transaction:</label>
+                <label id="lbsuch">Geben Sie den TransaktionsId ein:</label>
                 <div class="wrap-input100 validate-input" >
                     <input class="input100"  id = "theTransaction" type="text" >
                   
@@ -136,9 +136,9 @@
                     </div>
                 </div>
                 <br>
-                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'"> Verifier avec la Date</button >
-                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'"> Verifier avec la Transactions</button >
-                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'"> Verifier avec Nom et Prenom</button >
+                <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'">Überprüfen mit Datum</button >
+                <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'">Überprüfen mit TransaktionsID</button >
+                <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'">Überprüfen mit Namen und Vornamen</button >
                 <button id = "btnabml2" class="login100-form-btn" onclick="location.href='index.php';" >Abmelden</button >
 
                 <br>
