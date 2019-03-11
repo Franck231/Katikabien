@@ -139,7 +139,7 @@ window.onload = function () {
                     <div class="col-4">
                         <div class="container-login100-form-btn">
                             <button id="btnVer" onclick="myFunction()" class="login100-form-btn">
-                                Uepruefen
+                                Ueberpruefen
                             </button>
                         </div>
                     </div>
