@@ -102,7 +102,7 @@
     <div class="container-login100">
         <div class="wrap-login100">
             <div class="login100-form validate-form register">
-                <label id="lbl">Entrez la Date:</label>
+                <label id="lbl">Geben Sie das Datum ein:</label>
                 <div class="wrap-input100 validate-input" >
                     <input class="input100"  id = "theDate" type="date" >
                     <span  id="userTemp" class="symbol-input100">
@@ -113,7 +113,7 @@
                     <div class="col-4">
                         <div class="container-login100-form-btn">
                             <button id="btnVer" onclick="myFunction()" class="login100-form-btn">
-                                Verifier
+                                Uepruefen
                             </button>
                         </div>
                     </div>
@@ -135,11 +135,11 @@
             <br>
 
            
-            <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'"> Verifier avec la Date</button >
+            <button id="btnToDate" class="login100-form-btn" onclick="window.location.href='chckWithDate.php'">Ueberpruefen mit Datum</button >
 			<br>
-            <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'"> Verifier avec la Transactions</button >
+            <button id="btnToNTrans" class="login100-form-btn" onclick="window.location.href='check_transactionNummer.php'">Ueberpruefen mit TransaktionsID</button >
 			<br>
-            <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'"> Verifier avec Nom et Prenom</button >
+            <button id="btnNomPrenom" class="login100-form-btn" onclick="window.location.href='check_name_vorname.php'">Ueberpruefen mit Namen und Vornamen</button >
 			<br>
             <button id = "btnabml2" class="login100-form-btn" onclick="location.href='index.php';" >Abmelden</button >
 			
