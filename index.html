@@ -48,7 +48,7 @@
 
         if(mystring.length == 0 ){
 
-            alert('Das Feld f&uuml;r den User-Name ist leer');
+            alert('Das Feld fuer den User-Name ist leer');
             return;
         }
 
@@ -57,7 +57,7 @@
 
         if(mystring2.length == 0 ){
 
-            alert('Das Feld f&uuml;r das Passwort ist leer');
+            alert('Das Feld fuer das Passwort ist leer');
             return;
         }
 
@@ -163,7 +163,7 @@
 			},
 			error: function (e) 
 			{     
-			   alert(e.status); //Ajax kÃ¶nnte nicht ausgefÃ¼hrt sein
+			   alert(e.status); //Ajax koennte nicht ausgefuehrt sein
 			}
 		});
 		
@@ -181,7 +181,7 @@
         document.getElementById("pword").value = "";
         document.getElementById("btnVer").style.display = "inline";
 
-        document.getElementById("hinweis").innerHTML = "Veuillez vous enregistrer";
+        document.getElementById("hinweis").innerHTML = "Melden Sie sich bitte an";
         document.getElementById("meldung").style.display = "none";
         document.getElementById("btnVerAgain").style.display = "none";
         document.getElementById("btnToDate").style.display = "none";
@@ -222,7 +222,7 @@
 				
 				
 				<span class="login100-form-title">
-						<b> <p style="font-size:16px" id="hinweis">Veuillez vous enregistrer</p> </b>
+						<b> <p style="font-size:16px" id="hinweis"></p> </b>
 				</span>
 
                 <label id="lbl">Email:</label>
@@ -254,15 +254,15 @@
 					<button class="login100-form-btn" id="btnVerAgain" onclick="myFunction()"> Melden Sie sich bitte nochmal an</button>
 				</div>
 				 <div class="container-login100-form-btn">
-					<button class="login100-form-btn" id="btnToDate" onclick="window.location.href='chckWithDate.php'"> Verifier avec la Date</button >
+					<button class="login100-form-btn" id="btnToDate" onclick="window.location.href='chckWithDate.php'">Überprüfen mit Datum</button >
 				</div>
 					
 				 <div class="container-login100-form-btn">
-						<button class="login100-form-btn" id="btnToNTrans" onclick="window.location.href='check_transactionNummer.php'"> Verifier avec la Transactions</button >
+						<button class="login100-form-btn" id="btnToNTrans" onclick="window.location.href='check_transactionNummer.php'">Überprüfen mit TransaktionsID</button >
 				 </div>
 						
 				 <div class="container-login100-form-btn">		
-                    <button class="login100-form-btn" id="btnNomPrenom" onclick="window.location.href='check_name_vorname.php'"> Verifier avec Nom et Prenom</button >
+                    <button class="login100-form-btn" id="btnNomPrenom" onclick="window.location.href='check_name_vorname.php'">Überprüfen mit Namen und Vornamen</button >
 				</div>
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn" id="btnVerAbmelden" onclick="myFunctionabmeldung()">Abmelden</button >
